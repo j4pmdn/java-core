@@ -17,6 +17,11 @@ public class Ex02RandomDemo {
 		System.out.println("b --> " + b);
 		System.out.println("c --> " + c);
 		
+		// rd.nextFloat()
+		// [0, 8.8f) --> [inclusive, exclusive)
+		float fRand = rd.nextFloat();
+		System.out.println("frand --> " + fRand);
+		
 	}
 	
 }
