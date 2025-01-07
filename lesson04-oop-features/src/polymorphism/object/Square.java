@@ -12,4 +12,8 @@ public class Square extends Shape{
 		System.out.println("Square --> CalS ...");
 	}
 	
+	void setBackground() {
+		System.out.println("Square --> setBackground ...");
+	}
+	
 }
