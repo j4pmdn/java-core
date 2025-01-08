@@ -49,7 +49,6 @@ public class TextBook extends Book {
 	public void setDiscount(BigDecimal discount) {
 		this.discount = discount;
 	}
-
 	
 	@Override
 	public String toString() {
