@@ -1,0 +1,37 @@
+1. Phân biệt JDK, JRE, JVM
+-  JDK: Java Development Kit: Bộ công cụ phát triển Java
+   + Muốn hệ thống(OS) muốn thực thi được chương trình, ứng dụng sử dụng code Java
+	 thì bắt buộc phải cài đặt JDK
+   + JAVA_HOME
+   + cmd -> java -version
+   + Nếu chưa cài đặt thì bật cmd gõ java --> java is no recognized
+
+- JRE: Java Runtime Environment: Môi trường thực thi Java
+  + Libraries: Thư viện chuẩn có sẵn của Java
+  + JVM
+  Muốn code Java sử dụng các tập lệnh syntax có sẵn trong thư viện mà Java cung cấp
+  Để chạy được chương trình .java -> .class(bytecode) -> execute
+
+
++ JVM: Java Virtual Machine: Máy ảo Java
+  Là 1 chương trình ứng dụng cho phép thực thi chương trình Java
+  Từ bytecode dịch ra mã máy ở các OS tương ứng để OS đó thực thi cho mình
+  
+2. Tại sao Java write once run anywhere
+Vì từ java -> bytecode -> JVM dịch bytecode ra native code(mã máy) tương ứng trên
+mỗi hệ điều hành để thực thi chương trình
+
+3. Có bao nhiêu loại KDL trong Java 
+Có 2 loại Kiểu Dữ Liệu
+- Primitive Type: KDL nguyên thủy
+  Ví dụ: int, float, double, char 
+  Giá trị lưu trữ ở STACK
+  Giá trị lưu trữ của nó chỉ có thể là giá trị đơn: atomic
+  Ko thể tạo ra KDL nguyên thủy mới
+  Luôn luôn có giá trị hoặc giá trị mặc định
+  
+- Object Type: đối tượng
+  Ví dụ: Integer, Double, String, Date, Calendar, Item, Employee
+  Giá trị lưu trữ ở HEAP
+  Có thể lưu trữ 1 hoặc nhiều thông tin bên trong KDL đối tượng
+  Có thể tạo ra KDL đối tượng mới: Ví dụ Item, Student...
