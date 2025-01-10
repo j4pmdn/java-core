@@ -88,7 +88,7 @@ Nếu class nào mình ko muốn class được phép khởi tạo đối tượ
 + util class
 + singleton pattern
 + builder pattern
-
+  
 class MathUtils{
 
 	private MathUtils(){
@@ -104,7 +104,9 @@ class MathUtils{
 	}
 }
 
+10. Phân biệt class và object
 
+11. Inheritance vs composition
 
 
 
